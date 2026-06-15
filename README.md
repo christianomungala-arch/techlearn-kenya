@@ -1,4 +1,4 @@
-# TechLearn Kenya 🎓💻
+ TechLearn Kenya 
 
 A fully responsive multi-page web application built as a front-end development project.
 TechLearn Kenya is a fictional online learning platform offering affordable tech courses
@@ -9,9 +9,9 @@ to Kenyan learners.
 
 [View Live Site](https://YOUR-USERNAME.github.io/techlearn-kenya)
 
----
 
-## 📄 Pages
+
+ Pages
 
 | Page | File | Description |
 |------|------|-------------|
@@ -26,14 +26,14 @@ to Kenyan learners.
 
 ---
 
-## 🛠️ Technologies Used
+ Technologies Used
 
-- **HTML5** — Semantic page structure
-- **CSS3** — Custom styles, transitions, dark mode variables
-- **JavaScript (ES6+)** — Dark mode toggle, form validation, course filter
-- **Bootstrap 5** — Responsive grid, navbar, cards, modals, accordion
-- **Bootstrap Icons** — Icon library throughout the site
-- **Git & GitHub** — Version control with incremental commits
+HTML5 — Semantic page structure
+CSS3 — Custom styles, transitions, dark mode variables
+JavaScript (ES6+) — Dark mode toggle, form validation, course filter
+Bootstrap 5 — Responsive grid, navbar, cards, modals, accordion
+Bootstrap Icons — Icon library throughout the site
+Git & GitHub — Version control with incremental commits
 
 
 

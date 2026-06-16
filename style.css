@@ -1,0 +1,5 @@
+/* ===== PAGE HEADER (used on all inner pages) ===== */
+.page-header {
+  background: linear-gradient(135deg, #0a58ca 0%, #084298 100%);
+  padding: 60px 20px;
+}

@@ -70,3 +70,40 @@ if (contactForm) {
     }
   });
 }
+// ===== COURSE FILTER =====
+const filterBtns = document.querySelectorAll('.filter-btn');
+const courseCards = document.querySelectorAll('.course-card');
+const noResults = document.getElementById('noResults');
+
+filterBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    // Reset all buttons to outline style
+    filterBtns.forEach(b => {
+      b.classList.remove('btn-primary', 'active');
+      b.classList.add('btn-outline-primary');
+    });
+    // Highlight the clicked button
+    btn.classList.remove('btn-outline-primary');
+    btn.classList.add('btn-primary', 'active');
+
+    const filterValue = btn.getAttribute('data-filter');
+    let visibleCount = 0;
+
+    courseCards.forEach(card => {
+      const category = card.getAttribute('data-category');
+      if (filterValue === 'all' || category === filterValue) {
+        card.style.display = 'block';
+        visibleCount++;
+      } else {
+        card.style.display = 'none';
+      }
+    });
+
+    // Show "no results" message if needed
+    if (visibleCount === 0) {
+      noResults.classList.remove('d-none');
+    } else {
+      noResults.classList.add('d-none');
+    }
+  });
+});

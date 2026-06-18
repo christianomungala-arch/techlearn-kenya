@@ -51,6 +51,156 @@
       </nav>
     </div>
   </section>
+  <!-- ========== FILTER BUTTONS ========== -->
+  <section class="py-4 bg-light">
+    <div class="container text-center">
+      <button class="btn btn-primary filter-btn m-1 active" data-filter="all">All Courses</button>
+      <button class="btn btn-outline-primary filter-btn m-1" data-filter="web">Web Development</button>
+      <button class="btn btn-outline-primary filter-btn m-1" data-filter="data">Data Science</button>
+      <button class="btn btn-outline-primary filter-btn m-1" data-filter="mobile">Mobile Development</button>
+      <button class="btn btn-outline-primary filter-btn m-1" data-filter="design">UI/UX Design</button>
+    </div>
+  </section>
+
+  <!-- ========== COURSE GRID ========== -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-4" id="courseGrid">
+
+        <!-- Course 1 -->
+        <div class="col-md-4 course-card" data-category="web">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <span class="badge bg-primary mb-2">Web Development</span>
+              <h5 class="card-title">HTML, CSS & JavaScript Bootcamp</h5>
+              <p class="card-text">Learn to build responsive websites from scratch using modern web standards.</p>
+              <p class="mb-1"><i class="bi bi-clock"></i> 12 Weeks &nbsp; <i class="bi bi-bar-chart"></i> Beginner</p>
+              <h5 class="text-primary fw-bold">KES 8,500</h5>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <a href="#" class="btn btn-primary w-100">Enroll Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Course 2 -->
+        <div class="col-md-4 course-card" data-category="web">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <span class="badge bg-primary mb-2">Web Development</span>
+              <h5 class="card-title">Full-Stack with React & Node.js</h5>
+              <p class="card-text">Build complete web applications using React, Express, and MongoDB.</p>
+              <p class="mb-1"><i class="bi bi-clock"></i> 16 Weeks &nbsp; <i class="bi bi-bar-chart"></i> Advanced</p>
+              <h5 class="text-primary fw-bold">KES 15,000</h5>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <a href="#" class="btn btn-primary w-100">Enroll Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Course 3 -->
+        <div class="col-md-4 course-card" data-category="data">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <span class="badge bg-warning text-dark mb-2">Data Science</span>
+              <h5 class="card-title">Python for Data Analysis</h5>
+              <p class="card-text">Master pandas, NumPy, and data visualization to analyse real datasets.</p>
+              <p class="mb-1"><i class="bi bi-clock"></i> 10 Weeks &nbsp; <i class="bi bi-bar-chart"></i> Intermediate</p>
+              <h5 class="text-primary fw-bold">KES 11,000</h5>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <a href="#" class="btn btn-primary w-100">Enroll Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Course 4 -->
+        <div class="col-md-4 course-card" data-category="data">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <span class="badge bg-warning text-dark mb-2">Data Science</span>
+              <h5 class="card-title">Machine Learning Fundamentals</h5>
+              <p class="card-text">Introduction to ML algorithms, model training, and evaluation using scikit-learn.</p>
+              <p class="mb-1"><i class="bi bi-clock"></i> 14 Weeks &nbsp; <i class="bi bi-bar-chart"></i> Advanced</p>
+              <h5 class="text-primary fw-bold">KES 18,000</h5>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <a href="#" class="btn btn-primary w-100">Enroll Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Course 5 -->
+        <div class="col-md-4 course-card" data-category="mobile">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <span class="badge bg-success mb-2">Mobile Development</span>
+              <h5 class="card-title">Android Development with Java</h5>
+              <p class="card-text">Build and publish native Android apps using Java and Android Studio.</p>
+              <p class="mb-1"><i class="bi bi-clock"></i> 14 Weeks &nbsp; <i class="bi bi-bar-chart"></i> Intermediate</p>
+              <h5 class="text-primary fw-bold">KES 13,500</h5>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <a href="#" class="btn btn-primary w-100">Enroll Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Course 6 -->
+        <div class="col-md-4 course-card" data-category="mobile">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <span class="badge bg-success mb-2">Mobile Development</span>
+              <h5 class="card-title">Cross-Platform Apps with Flutter</h5>
+              <p class="card-text">Build apps for both Android and iOS from a single Dart codebase.</p>
+              <p class="mb-1"><i class="bi bi-clock"></i> 12 Weeks &nbsp; <i class="bi bi-bar-chart"></i> Intermediate</p>
+              <h5 class="text-primary fw-bold">KES 12,000</h5>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <a href="#" class="btn btn-primary w-100">Enroll Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Course 7 -->
+        <div class="col-md-4 course-card" data-category="design">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <span class="badge bg-danger mb-2">UI/UX Design</span>
+              <h5 class="card-title">UI/UX Design Fundamentals</h5>
+              <p class="card-text">Learn Figma, wireframing, and user research to design better digital products.</p>
+              <p class="mb-1"><i class="bi bi-clock"></i> 8 Weeks &nbsp; <i class="bi bi-bar-chart"></i> Beginner</p>
+              <h5 class="text-primary fw-bold">KES 7,000</h5>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <a href="#" class="btn btn-primary w-100">Enroll Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Course 8 -->
+        <div class="col-md-4 course-card" data-category="design">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <span class="badge bg-danger mb-2">UI/UX Design</span>
+              <h5 class="card-title">Advanced Product Design</h5>
+              <p class="card-text">Design systems, prototyping, and usability testing for production-ready products.</p>
+              <p class="mb-1"><i class="bi bi-clock"></i> 10 Weeks &nbsp; <i class="bi bi-bar-chart"></i> Advanced</p>
+              <h5 class="text-primary fw-bold">KES 10,500</h5>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <a href="#" class="btn btn-primary w-100">Enroll Now</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- No results message -->
+      <p class="text-center text-muted mt-4 d-none" id="noResults">No courses found in this category.</p>
+    </div>
+  </section>
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

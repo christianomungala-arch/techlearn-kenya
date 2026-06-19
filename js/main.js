@@ -107,3 +107,12 @@ filterBtns.forEach(btn => {
     }
   });
 });
+// ===== NEWSLETTER FORM =====
+const newsletterForm = document.getElementById('newsletterForm');
+if (newsletterForm) {
+  newsletterForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+    document.getElementById('newsletterMsg').classList.remove('d-none');
+    newsletterForm.reset();
+  });
+}

@@ -3,3 +3,19 @@
   background: linear-gradient(135deg, #0a58ca 0%, #084298 100%);
   padding: 60px 20px;
 }
+/* ===== GALLERY ===== */
+.gallery-card {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.gallery-card:hover {
+  transform: scale(1.03);
+}
+.gallery-overlay {
+  background: rgba(13, 110, 253, 0.6);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.gallery-card:hover .gallery-overlay {
+  opacity: 1;
+}

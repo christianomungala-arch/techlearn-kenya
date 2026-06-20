@@ -116,3 +116,31 @@ if (newsletterForm) {
     newsletterForm.reset();
   });
 }
+// ===== GALLERY FILTER =====
+const galleryFilterBtns = document.querySelectorAll('.gallery-filter-btn');
+const galleryItems = document.querySelectorAll('.gallery-item');
+
+galleryFilterBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+
+    // Reset all buttons
+    galleryFilterBtns.forEach(b => {
+      b.classList.remove('btn-primary', 'active');
+      b.classList.add('btn-outline-primary');
+    });
+
+    // Highlight clicked button
+    btn.classList.remove('btn-outline-primary');
+    btn.classList.add('btn-primary', 'active');
+
+    const filter = btn.getAttribute('data-filter');
+
+    galleryItems.forEach(item => {
+      if (filter === 'all' || item.getAttribute('data-category') === filter) {
+        item.style.display = 'block';
+      } else {
+        item.style.display = 'none';
+      }
+    });
+  });
+});

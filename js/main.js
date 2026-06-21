@@ -144,3 +144,22 @@ galleryFilterBtns.forEach(btn => {
     });
   });
 });
+// ===== FAQ SEARCH =====
+const faqSearch = document.getElementById('faqSearch');
+if (faqSearch) {
+  faqSearch.addEventListener('input', function () {
+    const searchTerm = this.value.toLowerCase();
+    const accordionItems = document.querySelectorAll('.accordion-item');
+
+    accordionItems.forEach(item => {
+      const questionText = item.querySelector('.accordion-button').textContent.toLowerCase();
+      const answerText = item.querySelector('.accordion-body').textContent.toLowerCase();
+
+      if (questionText.includes(searchTerm) || answerText.includes(searchTerm)) {
+        item.style.display = 'block';
+      } else {
+        item.style.display = 'none';
+      }
+    });
+  });
+}

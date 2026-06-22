@@ -163,3 +163,50 @@ if (faqSearch) {
     });
   });
 }
+// ===== TESTIMONY FORM VALIDATION =====
+const testimonyForm = document.getElementById('testimonyForm');
+if (testimonyForm) {
+  testimonyForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+    let isValid = true;
+
+    // Validate name
+    const tName = document.getElementById('tName');
+    if (tName.value.trim().length < 3) {
+      tName.classList.add('is-invalid');
+      isValid = false;
+    } else {
+      tName.classList.remove('is-invalid');
+      tName.classList.add('is-valid');
+    }
+
+    // Validate course
+    const tCourse = document.getElementById('tCourse');
+    if (tCourse.value === '') {
+      tCourse.classList.add('is-invalid');
+      isValid = false;
+    } else {
+      tCourse.classList.remove('is-invalid');
+      tCourse.classList.add('is-valid');
+    }
+
+    // Validate story
+    const tStory = document.getElementById('tStory');
+    if (tStory.value.trim().length < 30) {
+      tStory.classList.add('is-invalid');
+      isValid = false;
+    } else {
+      tStory.classList.remove('is-invalid');
+      tStory.classList.add('is-valid');
+    }
+
+    // Show success
+    if (isValid) {
+      document.getElementById('testimonySuccess').classList.remove('d-none');
+      testimonyForm.reset();
+      testimonyForm.querySelectorAll('.is-valid').forEach(el => {
+        el.classList.remove('is-valid');
+      });
+    }
+  });
+}

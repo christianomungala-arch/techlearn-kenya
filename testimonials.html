@@ -170,7 +170,146 @@
             </div>
           </div>
         </div>
+        <!-- Testimonial 4 -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0 p-3">
+            <div class="card-body">
+              <div class="text-warning mb-2">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p class="card-text fst-italic">
+                "The UI/UX Design course gave me skills I use every single day
+                at my job. I was hired as a product designer at a Nairobi fintech
+                startup just two months after graduating. Worth every shilling!"
+              </p>
+            </div>
+            <div class="card-footer bg-white border-0 d-flex align-items-center">
+              <div class="bg-danger text-white rounded-circle d-flex align-items-center justify-content-center me-3"
+                style="width:48px;height:48px;min-width:48px;">
+                <i class="bi bi-person-fill"></i>
+              </div>
+              <div>
+                <h6 class="mb-0 fw-bold">Kevin Odhiambo</h6>
+                <small class="text-muted">UI/UX Design Graduate · Nairobi</small>
+              </div>
+            </div>
+          </div>
+        </div>
 
+        <!-- Testimonial 5 -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0 p-3">
+            <div class="card-body">
+              <div class="text-warning mb-2">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p class="card-text fst-italic">
+                "As a mother of two, I needed flexible learning hours.
+                TechLearn's weekend and evening classes made it possible.
+                I completed the Full-Stack course and now work remotely
+                for a company in London."
+              </p>
+            </div>
+            <div class="card-footer bg-white border-0 d-flex align-items-center">
+              <div class="bg-info text-white rounded-circle d-flex align-items-center justify-content-center me-3"
+                style="width:48px;height:48px;min-width:48px;">
+                <i class="bi bi-person-fill"></i>
+              </div>
+              <div>
+                <h6 class="mb-0 fw-bold">Grace Wambui</h6>
+                <small class="text-muted">Full-Stack Graduate · Thika</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 6 -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm border-0 p-3">
+            <div class="card-body">
+              <div class="text-warning mb-2">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </div>
+              <p class="card-text fst-italic">
+                "The Python for Data Analysis course was challenging but
+                rewarding. The instructors were always available on WhatsApp
+                to answer questions. I now work as a data analyst at a
+                Kenyan bank."
+              </p>
+            </div>
+            <div class="card-footer bg-white border-0 d-flex align-items-center">
+              <div class="bg-secondary text-white rounded-circle d-flex align-items-center justify-content-center me-3"
+                style="width:48px;height:48px;min-width:48px;">
+                <i class="bi bi-person-fill"></i>
+              </div>
+              <div>
+                <h6 class="mb-0 fw-bold">Peter Kamau</h6>
+                <small class="text-muted">Data Science Graduate · Nakuru</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- ========== SUBMIT YOUR STORY ========== -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-7 text-center">
+          <h2 class="fw-bold mb-3">Share Your Story</h2>
+          <p class="text-muted mb-4">
+            Are you a TechLearn Kenya graduate? We would love to feature
+            your story and inspire the next generation of Kenyan developers.
+          </p>
+          <form id="testimonyForm" novalidate>
+            <div class="mb-3 text-start">
+              <label class="form-label fw-semibold">Your Name</label>
+              <input type="text" class="form-control" id="tName"
+                placeholder="e.g. John Kamau" />
+              <div class="invalid-feedback">Please enter your name.</div>
+            </div>
+            <div class="mb-3 text-start">
+              <label class="form-label fw-semibold">Course Completed</label>
+              <select class="form-select" id="tCourse">
+                <option value="">-- Select your course --</option>
+                <option>HTML, CSS & JavaScript Bootcamp</option>
+                <option>Full-Stack with React & Node.js</option>
+                <option>Python for Data Analysis</option>
+                <option>Machine Learning Fundamentals</option>
+                <option>Android Development with Java</option>
+                <option>UI/UX Design Fundamentals</option>
+              </select>
+              <div class="invalid-feedback">Please select a course.</div>
+            </div>
+            <div class="mb-3 text-start">
+              <label class="form-label fw-semibold">Your Story</label>
+              <textarea class="form-control" id="tStory" rows="4"
+                placeholder="Tell us how TechLearn Kenya changed your career..."></textarea>
+              <div class="invalid-feedback">Please write at least 30 characters.</div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg w-100">
+              <i class="bi bi-send-fill me-2"></i>Submit My Story
+            </button>
+            <div class="alert alert-success mt-3 d-none" id="testimonySuccess">
+              <i class="bi bi-check-circle-fill me-2"></i>
+              Thank you! We will review your story and feature it soon.
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   </section>

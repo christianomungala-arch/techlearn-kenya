@@ -45,3 +45,19 @@ html {
 #backToTop:hover {
   background-color: #0a58ca;
 }
+/* ===== MOBILE FIXES ===== */
+body {
+  overflow-x: hidden;
+}
+
+@media (max-width: 576px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+  .page-header h1 {
+    font-size: 1.8rem;
+  }
+  .display-4, .display-5 {
+    font-size: 2rem;
+  }
+}

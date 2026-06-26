@@ -50,3 +50,5 @@ Git & GitHub — Version control with incremental commits
 
 
  Folder Structure
+ Live Site
+[View Live Site](https://christianomungala-arch.github.io/techlearn-kenya)

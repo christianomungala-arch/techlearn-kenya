@@ -1,0 +1,36 @@
+[33m1ec1049[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m Update README with live GitHub Pages deployment link
+[33m8362f84[m Add why choose us section and call to action to homepage
+[33m3b0b939[m Add mobile responsiveness fixes and media queries
+[33m063c064[m Add back to top button and smooth scroll across all pages
+[33m490a975[m Fix stylesheet and script links across all pages
+[33m0d5902c[m Add footer to Testimonials page
+[33mcd7aedb[m Add 3 more testimonial cards and submit your story form
+[33m40d9a83[m Add first 3 student testimonial cards
+[33m33189fa[m Add student statistics banner to Testimonials page
+[33m9c0bd72[m Add Testimonials page navbar and header section
+[33m9662930[m Add footer to FAQ page
+[33m720a539[m Add FAQ live search and still have questions section
+[33m9358ff6[m Add payment, fees and certification FAQ sections
+[33m16e6be9[m Add courses and learning FAQ accordion section
+[33mcafc22d[m Add FAQ page navbar and header section
+[33m33c36dd[m Add footer to Gallery page
+[33m9d0c8ca[m Add gallery hover styles and JavaScript filter functionality
+[33maef4c59[m Add first 6 gallery image cards
+[33me9df032[m Add gallery category filter buttons
+[33m8ccb558[m Add Gallery page navbar and header section
+[33md4f2c86[m Add footer to Blog page
+[33m9a7ee02[m Add newsletter signup section with JS confirmation
+[33m5dde654[m Add 3 additional blog post cards
+[33m21f736e[m Add first 3 blog post cards
+[33m4d6b4a7[m Add Blog page navbar and header section
+[33m7d15d64[m Implement JavaScript course filter by category
+[33m5e48af6[m Add course filter buttons and course card grid
+[33m0cd1659[m Add Courses page navbar and header section
+[33m141b8cb[m Implement contact form JavaScript validation with success feedback
+[33m3078a55[m Add contact form layout and contact info section
+[33mbcfa6c4[m Add Contact page navbar and header section
+[33m19acf1d[m Add team member cards and footer to About page
+[33m524cf30[m Add mission statement and core values
+[33mf66f136[m Add about page NavBar and header section
+[33m31ca78d[m Initial commit: project structure and README
+[33m472e37c[m first commit

@@ -61,3 +61,15 @@ body {
     font-size: 2rem;
   }
 }
+/* ===== FOOTER LINK HOVER ===== */
+footer a.text-muted:hover {
+  color: #ffc107 !important;
+  text-decoration: underline !important;
+  transition: color 0.2s ease;
+}
+
+/* ===== NAVBAR LINK HOVER ===== */
+.navbar .nav-link:hover {
+  color: #ffc107 !important;
+  transition: color 0.2s ease;
+}
